@@ -23,7 +23,7 @@ export default function App() {
     const name = useInput("Ms.Bom", maxLen);
     return (
         <div className="App">
-            <h1>Hello</h1>
+            <h1>Hello Bom</h1>
             <input placeholder="Name" {...name} />
         </div>
     );
