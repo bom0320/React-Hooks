@@ -25,6 +25,7 @@ export default function App() {
         <div className="App">
             <h1>Hello Bom</h1>
             <input placeholder="Name" {...name} />
+
         </div>
     );
 }
