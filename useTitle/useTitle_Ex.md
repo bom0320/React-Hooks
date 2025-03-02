@@ -35,4 +35,4 @@ export default function App() {
 ### 4. 주의할 점
 
 - `useTitle`에서 `setTitle`을 반환하지 않으면 `titleUpdater`가 `undefined`가 되어 **TypeError: titleUpdater is not a function** 발생함.
-- 반드시 `return setTitle;`을 추가해야 정상 동작함.
+- 반드시 `return setTitle;`을 추가해야 정상 동작한다.
